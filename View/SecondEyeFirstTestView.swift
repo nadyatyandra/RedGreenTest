@@ -31,7 +31,6 @@ struct SecondEyeFirstTestView: View {
                     Spacer()
                     HStack {
                         Button {
-                            
                         } label: {
                             RedGreenTemplateView(name: "Red", color: 1, selectedColor: $selectedColor)
                                 .onTapGesture {
@@ -49,7 +48,6 @@ struct SecondEyeFirstTestView: View {
                     }
                     HStack {
                         Button {
-                            
                         } label: {
                             RedGreenTemplateView(name: "Green", color: 2, selectedColor: $selectedColor)
                                 .onTapGesture {

@@ -32,7 +32,6 @@ struct FirstEyeSecondTestView: View {
                     HStack {
                         VStack {
                             Button {
-
                             } label: {
                                 RedGreenTemplateView(name: "Red", color: 3, selectedColor: $selectedColor)
                                     .onTapGesture {
@@ -50,7 +49,6 @@ struct FirstEyeSecondTestView: View {
                         }
                         VStack {
                             Button {
-                                
                             } label: {
                                 RedGreenTemplateView(name: "Green", color: 4, selectedColor: $selectedColor)
                                     .onTapGesture {
@@ -89,7 +87,6 @@ struct FirstEyeSecondTestView: View {
                         Spacer()
                         if (secondColor.name != "") {
                             Button {
-
                             } label: {
                                 NavigationLink(destination: FirstEyeResult(firstEye: $firstEye)){
                                     Image("Next Small White")

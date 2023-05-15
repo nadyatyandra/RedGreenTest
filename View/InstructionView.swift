@@ -53,11 +53,11 @@ struct InstructionView: View {
                                 .frame(width: 410, height: 200)
                                 .scaledToFit()
                                 .overlay(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color(#colorLiteral(red: 0.557, green: 0.557, blue: 0.557, alpha: 1)), lineWidth: 8)
-                                    .cornerRadius(10)
-                                    .frame(width: 410, height: 200)
-                            )
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(Color(#colorLiteral(red: 0.557, green: 0.557, blue: 0.557, alpha: 1)), lineWidth: 8)
+                                        .cornerRadius(10)
+                                        .frame(width: 410, height: 200)
+                                )
                         }
                         HStack {
                             VStack {
@@ -96,7 +96,6 @@ struct InstructionView: View {
                             }
                             Spacer()
                             Button {
-                                
                             } label: {
                                 Image("Next Small Black")
                                     .resizable()
@@ -182,11 +181,11 @@ struct InstructionView: View {
                                 .scaledToFit()
                                 .cornerRadius(10.0)
                                 .overlay(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color(#colorLiteral(red: 0.557, green: 0.557, blue: 0.557, alpha: 1)), lineWidth: 8)
-                                    .cornerRadius(10)
-                                    .frame(width: 410, height: 200)
-                            )
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(Color(#colorLiteral(red: 0.557, green: 0.557, blue: 0.557, alpha: 1)), lineWidth: 8)
+                                        .cornerRadius(10)
+                                        .frame(width: 410, height: 200)
+                                )
                         }
                         Spacer()
                         HStack {

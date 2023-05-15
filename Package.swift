@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Red-Green Test",
+    name: "Red-green Test",
     platforms: [
         .iOS("15.2")
     ],
     products: [
         .iOSApplication(
-            name: "Red-Green Test",
+            name: "Red-green Test",
             targets: ["AppModule"],
             bundleIdentifier: "Nadya-Tyandra.WWDC23",
             teamIdentifier: "MTL5N7KWYL",

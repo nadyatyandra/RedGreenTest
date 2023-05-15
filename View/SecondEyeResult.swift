@@ -32,7 +32,7 @@ struct SecondEyeResult: View {
                         .bold()
                         .padding(.bottom, 12)
                     if secondEye.correction == "Plus" {
-                        Text("Hypermetropia (long-sightedness) is a vision condition in which distant objects are seen clearly, but near objects appear blurred. This blur is due to incoming light being focused behind, instead of on, the retina. A convex (positive) lens is used to correct hypermetropia as it converges the light rays so that the final image from the human eye lens is formed on the retina.")
+                        Text("You see sharper shapes on the green background. Green rays focused closer to the retina (seems more clear) in long sight. You may suffer from hypermetropia. Hypermetropia (long-sightedness) is a vision condition in which distant objects are seen clearly, but near objects appear blurred. This blur is due to incoming light being focused behind, instead of on, the retina. A convex (positive) lens is used to correct hypermetropia as it converges the light rays so that the final image from the human eye lens is formed on the retina.")
                             .foregroundColor(Color(#colorLiteral(red: 0.129, green: 0.141, blue: 0.153, alpha: 1)))
                             .multilineTextAlignment(.center)
                             .font(.system(size: 24))
@@ -51,7 +51,7 @@ struct SecondEyeResult: View {
                             .padding()
                     }
                     else if secondEye.correction == "Minus" {
-                        Text("You see sharper shapes on the red background, you may suffer from myopia. Myopia (nearsightedness) is a vision condition in which near objects appear clear, but objects farther away look blurry. Light rays that should be focused on nerve tissues at the back of the retina are focused in front of the retina. A concave (negative) lens is used to correct myopia as it pushes the rays of light further apart so that they arrive together in proper focus at the back of the retina.")
+                        Text("You see sharper shapes on the red background. Red rays focused closer to the retina (seems more clear) in short sight. You may suffer from myopia. Myopia (nearsightedness) is a vision condition in which near objects appear clear, but objects farther away look blurry. Light rays that should be focused on nerve tissues at the back of the retina are focused in front of the retina. A concave (negative) lens is used to correct myopia as it pushes the rays of light further apart so that they arrive together in proper focus at the back of the retina.")
                             .foregroundColor(Color(#colorLiteral(red: 0.129, green: 0.141, blue: 0.153, alpha: 1)))
                             .multilineTextAlignment(.center)
                             .font(.system(size: 24))
@@ -70,7 +70,7 @@ struct SecondEyeResult: View {
                             .padding()
                     }
                     else if secondEye.correction == "Normal" {
-                        Text("You can see the letters on both colors equally sharp, apparently you haven't got any refractive defects that require optical correction.")
+                        Text("You can see the shapes on both colors equally sharp, apparently you haven't got any refractive defects that require optical correction.")
                             .foregroundColor(Color(#colorLiteral(red: 0.129, green: 0.141, blue: 0.153, alpha: 1)))
                             .multilineTextAlignment(.center)
                             .font(.system(size: 24))
@@ -107,6 +107,4 @@ struct SecondEyeResult: View {
         .navigationViewStyle(.stack)
         .navigationBarBackButtonHidden(true)
     }
-    
-
 }

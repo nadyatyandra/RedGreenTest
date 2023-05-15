@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ExplanationView: View {
     @Environment(\.presentationMode) var presentationMode
-
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -23,7 +23,7 @@ struct ExplanationView: View {
                         .font(.system(size: 50))
                         .bold()
                         .padding(.bottom, 12)
-                    Text("Red and green light rays don’t fall in exactly the same place on the back of your eye (retina) due to something called chromatic aberration. Green rays should fall very slightly in front and red rays should fall very slightly behind the retina.")
+                    Text("Red and green light rays don’t fall in exactly the same place on the back of your eye (retina) due to something called chromatic aberration. Green rays should fall very slightly in front and red rays should fall very slightly behind the retina. Green rays focused closer to the retina (seems more clear) in long sight. Red rays focused closer to the retina (seems more clear) in short sight.")
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(#colorLiteral(red: 0.129, green: 0.141, blue: 0.153, alpha: 1)))
                         .font(.system(size: 24))

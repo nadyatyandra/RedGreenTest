@@ -33,7 +33,6 @@ struct SecondEyeSecondTestView: View {
                     HStack {
                         VStack {
                             Button {
-
                             } label: {
                                 RedGreenTemplateView(name: "Red", color: 3, selectedColor: $selectedColor)
                                     .onTapGesture {
@@ -51,7 +50,6 @@ struct SecondEyeSecondTestView: View {
                         }
                         VStack {
                             Button {
-                                
                             } label: {
                                 RedGreenTemplateView(name: "Green", color: 4, selectedColor: $selectedColor)
                                     .onTapGesture {
@@ -90,13 +88,13 @@ struct SecondEyeSecondTestView: View {
                         Spacer()
                         if (secondColor.name != "") {
                             Button {
-
                             } label: {
                                 NavigationLink(destination: SecondEyeResult(firstEye: $firstEye, secondEye: $secondEye)){
                                     Image("Next Small White")
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(width: 350)                                }
+                                    .frame(width: 350)
+                                }
                             }
                         }
                         else {
@@ -114,4 +112,3 @@ struct SecondEyeSecondTestView: View {
         .navigationBarBackButtonHidden(true)
     }
 }
-
