@@ -1,0 +1,12 @@
+LICENSE
+
+All images used in this app are made by myself and downloaded from Pixabay and do not require author display.
+Pixabay: https://pixabay.com/id/
+
+The background music used in this app is free to use even commercially. I used sound to build the calm ambience for the user while taking the test.
+Sunset Landscape by Keys of Moon | https://soundcloud.com/keysofmoon
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+
+All animations used in this app are made by myself.
